@@ -1,0 +1,81 @@
+.languages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    justify-content: center;
+    padding: 30px 0px;
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+
+.languages details {
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.languages details:last-child {
+    margin-bottom: 0;
+}
+
+.languages .go b {
+    color: #249c91;
+}
+
+.languages .rails b {
+    color: #CC0000;
+}
+
+.languages .wordpress b {
+    color: #444140;
+}
+
+.languages .css-js b{
+    color: #82508f;
+}
+
+.languages .articles b {
+    color: #389a6e;
+}
+
+.languages summary {
+    font-size: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.languages summary:focus{
+    outline: none;
+}
+
+details {    
+    height: fit-content;
+
+}
+details p{
+    padding-left: 35px;
+}
+
+details a{
+    display: block;
+    color: #444140;
+}
+
+details a:visited{
+    color: #3b4a5e;
+}
+
+details[open] summary~* {
+    animation: sweep .7s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-left: -30px
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0px
+    }
+}
