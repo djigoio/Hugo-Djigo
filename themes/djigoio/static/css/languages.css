@@ -47,10 +47,17 @@
     outline: none;
 }
 
-details {    
+details {
+    padding: 0 15px;    
     height: fit-content;
-
 }
+
+@media (min-width: 650px){
+    details {
+        padding: 0;
+    }
+}
+
 details p{
     padding-left: 35px;
 }

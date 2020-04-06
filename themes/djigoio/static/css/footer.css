@@ -16,4 +16,10 @@ footer{
 
 .footer--links a{
     color: #1C0D02;
+    text-decoration: none;
+}
+
+.footer--links svg{
+    margin-right: 10px;
+
 }
