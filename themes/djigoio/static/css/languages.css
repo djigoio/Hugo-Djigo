@@ -20,6 +20,10 @@
     color: #249c91;
 }
 
+.languages .webperf b {
+    color: #b284c4;
+}
+
 .languages .rails b {
     color: #CC0000;
 }
@@ -48,7 +52,7 @@
 }
 
 details {
-    padding: 0 15px;    
+    padding: 0 15px;
     height: fit-content;
 }
 
