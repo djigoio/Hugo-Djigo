@@ -1,7 +1,13 @@
 <div class="contact container">
     <a href="mailto: antonio.djinav@gmail.com">
-        <button class="contact--button" onclick="gtag('event', 'click_email_me');">
+        <button class="contact--button" onclick="clickEmailMeEvent()">
             E-mail me!
         </button>
     </a>
 </div>
+
+<script>
+function clickEmailMeEvent() {
+    gtag('event', 'click_email_me');
+}
+</script>
