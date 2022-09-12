@@ -32,12 +32,16 @@
     color: #444140;
 }
 
-.languages .css-js b{
+.languages .css-js b {
     color: #82508f;
 }
 
 .languages .articles b {
     color: #389a6e;
+}
+
+.languages .product b {
+    color: #000;
 }
 
 .languages summary {
@@ -47,7 +51,7 @@
     text-overflow: ellipsis;
 }
 
-.languages summary:focus{
+.languages summary:focus {
     outline: none;
 }
 
@@ -56,22 +60,23 @@ details {
     height: fit-content;
 }
 
-@media (min-width: 650px){
+@media (min-width: 650px) {
     details {
         padding: 0;
     }
 }
 
-details p{
+details p {
     padding-left: 35px;
+    line-height: 20px;
 }
 
-details a{
+details a {
     display: block;
     color: #444140;
 }
 
-details a:visited{
+details a:visited {
     color: #3b4a5e;
 }
 
@@ -84,7 +89,6 @@ details[open] summary~* {
         opacity: 0;
         margin-left: -30px
     }
-
     100% {
         opacity: 1;
         margin-left: 0px
