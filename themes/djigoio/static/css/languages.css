@@ -1,10 +1,10 @@
 .languages {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     justify-content: center;
     padding: 30px 0px;
     grid-gap: 15px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .languages details {
