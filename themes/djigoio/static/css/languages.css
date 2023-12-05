@@ -1,6 +1,6 @@
 .languages {
     display: grid;
-    justify-content: center;
+    /*justify-content: center;*/
     padding: 30px 0px;
     grid-gap: 15px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ details {
 }
 
 details p {
-    padding-left: 35px;
+    padding-left: 26px;
     line-height: 20px;
 }
 
