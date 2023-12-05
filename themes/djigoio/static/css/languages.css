@@ -67,7 +67,6 @@ details {
 }
 
 details p {
-    padding-left: 26px;
     line-height: 20px;
 }
 
@@ -82,6 +81,7 @@ details a:visited {
 
 details[open] summary~* {
     animation: sweep .7s ease-in-out;
+    margin-left: 25px;
 }
 
 @keyframes sweep {
