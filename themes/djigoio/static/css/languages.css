@@ -81,6 +81,7 @@ details a:visited {
 
 details[open] summary~* {
     animation: sweep .7s ease-in-out;
+    display: list-item;
     margin-left: 25px;
 }
 
@@ -91,6 +92,6 @@ details[open] summary~* {
     }
     100% {
         opacity: 1;
-        margin-left: 0px
+        margin-left: 25px
     }
 }
