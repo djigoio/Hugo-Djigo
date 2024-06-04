@@ -17,7 +17,7 @@
 }
 
 .languages .go b {
-    color: #249c91;
+    color: #4b059c;
 }
 
 .languages .webperf b {
@@ -25,11 +25,11 @@
 }
 
 .languages .rails b {
-    color: #CC0000;
+    color: #82508f;
 }
 
 .languages .wordpress b {
-    color: #444140;
+    color: #000;
 }
 
 .languages .css-js b {
