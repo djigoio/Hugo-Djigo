@@ -17,15 +17,15 @@
 }
 
 .languages .go b {
-    color: #4b059c;
+    color: #000;
 }
 
 .languages .webperf b {
-    color: #4b059c;
+    color: #000;
 }
 
 .languages .rails b {
-    color: #82508f;
+    color: #000;
 }
 
 .languages .wordpress b {
@@ -33,11 +33,11 @@
 }
 
 .languages .css-js b {
-    color: #82508f;
+    color: #000;
 }
 
 .languages .articles b {
-    color: #389a6e;
+    color: #000;
 }
 
 .languages .product b {
