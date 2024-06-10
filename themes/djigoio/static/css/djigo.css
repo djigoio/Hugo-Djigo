@@ -2,7 +2,7 @@
 @import "footer.css";
 @import "contact.css";
 * {
-    font-family: 'Comfortaa', cursive;
+    font-family: "DM Sans", 'sans-serif';
 }
 
 *::selection {
