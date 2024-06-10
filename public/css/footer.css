@@ -1,0 +1,25 @@
+footer{
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.footer--links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+
+.footer--links li:nth-child(2){
+    margin: 0 42px;
+}
+
+.footer--links a{
+    color: #1C0D02;
+    text-decoration: none;
+}
+
+.footer--links svg{
+    margin-right: 10px;
+
+}
