@@ -89,10 +89,11 @@ aside h2 {
 }
 
 .project img {
-    width: auto;
     object-fit: cover;
     border-radius: 16px;
     margin-bottom: 30px;
+    width: 100%;
+    height: auto;
 }
 
 img.resize{
@@ -111,11 +112,16 @@ a:visited {
 
 .project a{
     margin-top: 15px;
+    text-decoration: none;
 }
 
 
-@media (min-width: 1024px) {
 
+@media (min-width: 1024px) {
+.project img{
+    box-shadow: 15px 8px 20px 4px #00000038;
+
+}
     body {
         grid-template-columns: 1fr 2fr;
         display: grid;
