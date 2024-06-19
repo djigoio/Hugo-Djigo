@@ -116,7 +116,9 @@ a:visited {
 }
 
 
-
+button{
+    color: #444140;
+}
 .hide-xs{
     display: none;
 }
