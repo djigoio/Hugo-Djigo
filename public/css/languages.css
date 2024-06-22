@@ -51,9 +51,6 @@
     text-overflow: ellipsis;
 }
 
-.languages summary:focus {
-    outline: none;
-}
 
 details {
     padding: 0 15px;
