@@ -76,6 +76,8 @@ aside h2 {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    max-width: 252px;
+    margin: 0 auto;
 }
 
 .project p {
