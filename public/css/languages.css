@@ -46,7 +46,6 @@
 
 .languages summary {
     font-size: 22px;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
