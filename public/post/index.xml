@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Antonio Djigo - Tech Product Manager</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Antonio Djigo - Tech Product Manager</description>
+    <title>Posts on Antonio Djigo - Tech Product Manager</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Antonio Djigo - Tech Product Manager</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bullet-proof user stories for your team - with AI Prompts to do them!</title>
       <link>http://localhost:1313/post/bullet-proof-user-stories-with-ai-prompts/</link>

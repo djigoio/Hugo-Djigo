@@ -1,0 +1,41 @@
+article.post, .post-container{
+    padding: 30px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+a.post-container-last{
+    padding-left: 0px;
+
+}
+
+a.post-container{
+    display: block;
+    padding-bottom: 0px;
+}
+
+pre{
+    background-color: #444140;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: -30px;
+    margin-right: -30px;
+    white-space: pre-wrap;
+}
+
+article img {
+    width: calc(100% + 60px); /* Subtracting 30px from each side */
+    margin: 10px -30px;
+}
+
+.back-link{
+    margin-top: 30px;
+}
+.post .back-link:last-of-type{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.post>footer{
+    padding: 20px 0;
+}

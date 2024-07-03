@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://djigo.dev"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Antonio Djigo - Tech Product Manager"
 theme = "djigoio"
+disablePathToLower = true

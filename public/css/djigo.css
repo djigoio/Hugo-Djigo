@@ -1,6 +1,8 @@
 @import "languages.css";
 @import "footer.css";
 @import "contact.css";
+@import "post.css";
+
 
 * {
     font-family: "DM Sans", 'sans-serif';
@@ -130,6 +132,7 @@ button{
 aside h2 {
     margin-top: 30px;}
 
+
 @media (min-width: 1024px) {
     .hide-xs{
         display: block;
@@ -146,6 +149,10 @@ aside h2 {
         grid-template-columns: 1fr 2fr;
         display: grid;
         gap: 100px;
+    }
+
+    body:has(article){
+        display: block;
     }
 
     main.homepage {
