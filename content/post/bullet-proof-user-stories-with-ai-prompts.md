@@ -4,6 +4,7 @@ date: 2024-07-02T12:00:00Z
 draft: false
 custom_description: In this article, we will delve into **what makes a user story rock-solid**, and why it is essential for your team's success. We will explore the key characteristics of high-quality user stories, provide practical tips for writing them, and discuss how to avoid common pitfalls.
 custom_img_cover: https://i.imgur.com/QjpwMUP.png
+post_url: www.djigo.dev/post/bullet-proof-user-stories-with-ai-prompts/
 ---
 ## What are the user stories?
 
