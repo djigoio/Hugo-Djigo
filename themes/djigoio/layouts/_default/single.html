@@ -3,6 +3,8 @@
 {{- partial "head.html" . -}}
 <a class="post-container back-link" href="/">< Back to Djigo.dev</a>
 <article class="post post-container">
+    {{if .Params.custom_img_cover }}<img src="{{.Params.custom_img_cover}}" alt="" >{{else}}{{end}}
+
     {{template "partials/footer.html"}}
     <h1 class="post-title"> {{- .Title -}} </h1>
 
