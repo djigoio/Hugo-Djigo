@@ -1,5 +1,5 @@
 [build]
-command = "pelican"
+command = "hugo"
 publish = "output"
 
 [[headers]]
