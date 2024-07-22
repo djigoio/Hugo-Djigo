@@ -10,9 +10,6 @@ footer{
     list-style: none;
 }
 
-.footer--links li:nth-child(2){
-    margin: 0 42px;
-}
 
 .footer--links a{
     color: #1C0D02;
